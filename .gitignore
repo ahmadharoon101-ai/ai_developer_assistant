@@ -1,0 +1,43 @@
+# ---- Secrets: never commit these -------------------------------------------
+.env
+*.env
+.env.example
+backend/app.db
+**/google-services.json
+**/GoogleService-Info.plist
+
+# ---- Flutter / Dart (generated after `flutter create`) --------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+*.g.dart
+*.freezed.dart
+android/**/gradle-wrapper.jar
+android/.gradle
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+**/xcuserdata/
+linux/flutter/generated_plugin_registrant.*
+macos/Flutter/GeneratedPluginRegistrant.swift
+windows/flutter/generated_plugin_registrant.*
+
+# ---- Python / backend -------------------------------------------------------
+backend/.env
+backend/.venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+
+# ---- Editors / OS -----------------------------------------------------------
+.vscode/
+.idea/
+*.iml
+.DS_Store
